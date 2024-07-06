@@ -146,7 +146,7 @@ class _formularioAbastecerState extends State<FormularioAbastecer>
                             TextInputType.numberWithOptions(decimal: true),
                         // ignore: deprecated_member_use
                         inputFormatters: [
-                          BlacklistingTextInputFormatter(
+                          FilteringTextInputFormatter.deny(
                               new RegExp('[\\-|\\ ]'))
                         ]
                         //  inputFormatters: <TextInputFormatter>[
@@ -178,7 +178,7 @@ class _formularioAbastecerState extends State<FormularioAbastecer>
                       style: TextStyle(fontSize: 16.0),
                       keyboardType: TextInputType.number,
                         inputFormatters: [
-                          BlacklistingTextInputFormatter(
+                          FilteringTextInputFormatter.deny(
                               new RegExp('[\\-|\\ ]'))
                         ]
                     ),

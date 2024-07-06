@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:io';
 
 import 'package:bavaresco/models/sync/historic_sync.dart';
 import 'package:bavaresco/screens/lista/maquina.dart';

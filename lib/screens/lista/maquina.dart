@@ -22,6 +22,7 @@ class ListaMaquinas extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: Text(_title),
+          backgroundColor: Colors.greenAccent[700],
           bottom: TabBar(
             tabs: [
               Tab(text: "Trator"),
